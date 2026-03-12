@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <div>
       <header className="">
-        <h1 className="font-bold text-7xl">Tu noticia</h1>
+        <h1 className="font-bold text-7xl">Tu noticiero</h1>
       </header>
       <div className="flex flex-wrap gap-5 ">
         {resp.map((noticia, i) => {
